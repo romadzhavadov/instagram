@@ -1,0 +1,9 @@
+.delimeter::after {
+  content: '';
+  display: block;
+  margin-left: 4px;
+  width: 4px;
+  height: 4px;
+  background-color: rgb(146, 146, 146);
+  border-radius: 50%;
+}

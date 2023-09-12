@@ -1,0 +1,26 @@
+{
+  // Editor
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.extraLiners": "none",
+  "html.format.indentInnerHtml": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  // Tailwindcss
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}

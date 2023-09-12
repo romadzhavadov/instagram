@@ -1,0 +1,5 @@
+.list li:not(:last-of-type)::after {
+  content: '\00B7';
+  margin: 0 0.25em 0 0.25em;
+
+}
